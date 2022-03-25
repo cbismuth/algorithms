@@ -7,5 +7,6 @@ target/
 # JetBrains IntelliJ IDEA
 *.iml
 .idea/*
+!.idea/copyright/
 !.idea/codeStyles/
 !.idea/inspectionProfiles/
