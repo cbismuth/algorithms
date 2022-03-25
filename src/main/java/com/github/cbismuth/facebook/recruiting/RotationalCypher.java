@@ -25,7 +25,7 @@
 package com.github.cbismuth.facebook.recruiting;
 
 /**
- * Rotational Cipher
+ * <b>Rotational Cipher</b>
  * <p>
  * One simple way to encrypt a string is to "rotate" every alphanumeric character by a certain amount. Rotating a
  * character means replacing it with another character that is a certain number of steps away in normal alphabetic or
@@ -43,7 +43,7 @@ class RotationalCypher {
   /**
    * Encrypts a string by rotating each alphanumeric character.
    * <p>
-   * Cyclomatic complexity is O(n) as the input string characters have to be iterated over only once. Besides, no
+   * Cyclomatic complexity is <b>O(n)</b> as the input string characters have to be iterated over only once. Besides, no
    * initial copy of the input string is required.
    *
    * @param input an input string
