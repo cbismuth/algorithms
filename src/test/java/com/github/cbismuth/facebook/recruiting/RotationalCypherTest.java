@@ -31,17 +31,17 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
 
-public class RotationalCypherTest {
+class RotationalCypherTest {
 
-  private static Stream<Arguments> data() {
-    return Stream.of(Arguments.arguments("All-convoYs-9-be:Alert1.", 4, "Epp-gsrzsCw-3-fi:Epivx5."),
-                     Arguments.arguments("abcdZXYzxy-999.@", 200, "stuvRPQrpq-999.@"));
-  }
+ private static Stream<Arguments> data() {
+  return Stream.of(Arguments.arguments("All-convoYs-9-be:Alert1.", 4, "Epp-gsrzsCw-3-fi:Epivx5."),
+                   Arguments.arguments("abcdZXYzxy-999.@", 200, "stuvRPQrpq-999.@"));
+ }
 
-  private final RotationalCypher rotationalCypher = new RotationalCypher();
+ private final RotationalCypher rotationalCypher = new RotationalCypher();
 
-  @ParameterizedTest
-  @MethodSource("data")
+ @ParameterizedTest
+ @MethodSource("data")
   void testRotationalCipher(final String input, final int rotationFactor, final String expected) {
     final String actual = rotationalCypher.rotationalCipher(input, rotationFactor);
 

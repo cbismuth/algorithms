@@ -38,7 +38,7 @@ package com.github.cbismuth.facebook.recruiting;
  * <p>
  * Given a string and a rotation factor, return an encrypted string.
  */
-public class RotationalCypher {
+class RotationalCypher {
 
   /**
    * Encrypts a string by rotating each alphanumeric character.
@@ -51,7 +51,7 @@ public class RotationalCypher {
    *
    * @return the encrypted string
    */
-  public String rotationalCipher(final String input, final int rotationFactor) {
+  String rotationalCipher(final String input, final int rotationFactor) {
     System.out.printf("Encrypting input string [%s] ...%n", input);
 
     final char[] inputChars = input.toCharArray();
