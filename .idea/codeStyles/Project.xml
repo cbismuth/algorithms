@@ -497,9 +497,6 @@
       <option name="XML_TEXT_WRAP" value="0" />
       <option name="XML_KEEP_BLANK_LINES" value="1" />
     </XML>
-    <editorconfig>
-      <option name="ENABLED" value="false" />
-    </editorconfig>
     <codeStyleSettings language="HTML">
       <option name="RIGHT_MARGIN" value="999" />
       <option name="WRAP_ON_TYPING" value="0" />
