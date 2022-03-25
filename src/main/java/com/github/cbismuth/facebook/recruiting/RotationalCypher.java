@@ -55,14 +55,14 @@ class RotationalCypher {
     System.out.printf("Encrypting input string [%s] ...%n", input);
 
     final char[] inputChars = input.toCharArray();
-    final char[] cipheredChars = new char[inputChars.length];
-    for (int i = 0; i < cipheredChars.length; i++) {
-      cipheredChars[i] = encryptChar(rotationFactor, 'a', 'z', inputChars[i]);
-      cipheredChars[i] = encryptChar(rotationFactor, 'A', 'Z', cipheredChars[i]);
-      cipheredChars[i] = encryptChar(rotationFactor, '0', '9', cipheredChars[i]);
+    final char[] encryptedChars = new char[inputChars.length];
+    for (int i = 0; i < encryptedChars.length; i++) {
+      encryptedChars[i] = encryptChar(rotationFactor, 'a', 'z', inputChars[i]);
+      encryptedChars[i] = encryptChar(rotationFactor, 'A', 'Z', encryptedChars[i]);
+      encryptedChars[i] = encryptChar(rotationFactor, '0', '9', encryptedChars[i]);
     }
 
-    final String encrypted = String.valueOf(cipheredChars);
+    final String encrypted = String.valueOf(encryptedChars);
     System.out.printf("Input string [%s] successfully encrypted to [%s]%n", input, encrypted);
 
     return encrypted;
