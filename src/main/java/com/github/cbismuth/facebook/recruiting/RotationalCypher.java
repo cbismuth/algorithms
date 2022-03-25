@@ -40,58 +40,58 @@ package com.github.cbismuth.facebook.recruiting;
  */
 public class RotationalCypher {
 
-    /**
-     * Encrypts a string by rotating each alphanumeric character.
-     * <p>
-     * Cyclomatic complexity is O(n) as the input string characters have to be iterated over only once. Besides, no
-     * initial copy of the input string is required.
-     *
-     * @param input an input string
-     * @param rotationFactor a rotation factor
-     *
-     * @return the encrypted string
-     */
-    public String rotationalCipher(final String input, final int rotationFactor) {
-        System.out.printf("Encrypting input string [%s] ...%n", input);
+  /**
+   * Encrypts a string by rotating each alphanumeric character.
+   * <p>
+   * Cyclomatic complexity is O(n) as the input string characters have to be iterated over only once. Besides, no
+   * initial copy of the input string is required.
+   *
+   * @param input an input string
+   * @param rotationFactor a rotation factor
+   *
+   * @return the encrypted string
+   */
+  public String rotationalCipher(final String input, final int rotationFactor) {
+    System.out.printf("Encrypting input string [%s] ...%n", input);
 
-        final char[] inputChars = input.toCharArray();
-        final char[] cipheredChars = new char[inputChars.length];
-        for (int i = 0; i < cipheredChars.length; i++) {
-            cipheredChars[i] = encryptChar(rotationFactor, 'a', 'z', inputChars[i]);
-            cipheredChars[i] = encryptChar(rotationFactor, 'A', 'Z', cipheredChars[i]);
-            cipheredChars[i] = encryptChar(rotationFactor, '0', '9', cipheredChars[i]);
-        }
-
-        final String encrypted = String.valueOf(cipheredChars);
-        System.out.printf("Input string [%s] successfully encrypted to [%s]%n", input, encrypted);
-
-        return encrypted;
+    final char[] inputChars = input.toCharArray();
+    final char[] cipheredChars = new char[inputChars.length];
+    for (int i = 0; i < cipheredChars.length; i++) {
+      cipheredChars[i] = encryptChar(rotationFactor, 'a', 'z', inputChars[i]);
+      cipheredChars[i] = encryptChar(rotationFactor, 'A', 'Z', cipheredChars[i]);
+      cipheredChars[i] = encryptChar(rotationFactor, '0', '9', cipheredChars[i]);
     }
 
-    private char encryptChar(final int rotationFactor,
-                             final char startChar,
-                             final char endChar,
-                             final char inputChar) {
-        final char encryptedChar;
+    final String encrypted = String.valueOf(cipheredChars);
+    System.out.printf("Input string [%s] successfully encrypted to [%s]%n", input, encrypted);
 
-        if (inputChar >= startChar && inputChar <= endChar) {
-            // Trailing `+ 1` as arrays are 0-based in Java
-            final int effectiveRotationFactor = rotationFactor % (endChar - startChar + 1);
+    return encrypted;
+  }
 
-            final char tmp = (char) (inputChar + effectiveRotationFactor);
-            if (tmp > endChar) {
-                // Trailing `- 1` as arrays are 0-based in Java
-                encryptedChar = (char) (tmp - endChar + startChar - 1);
-            } else {
-                encryptedChar = tmp;
-            }
+  private char encryptChar(final int rotationFactor,
+                           final char startChar,
+                           final char endChar,
+                           final char inputChar) {
+    final char encryptedChar;
 
-            System.out.printf("input char [%c] within [%c] and [%c] and encrypted to [%c] with a rotation factor of [%d] (effective of: [%d])%n",
-                              inputChar, startChar, endChar, encryptedChar, rotationFactor, effectiveRotationFactor);
-        } else {
-            encryptedChar = inputChar;
-        }
+    if (inputChar >= startChar && inputChar <= endChar) {
+      // Trailing `+ 1` as arrays are 0-based in Java
+      final int effectiveRotationFactor = rotationFactor % (endChar - startChar + 1);
 
-        return encryptedChar;
+      final char tmp = (char) (inputChar + effectiveRotationFactor);
+      if (tmp > endChar) {
+        // Trailing `- 1` as arrays are 0-based in Java
+        encryptedChar = (char) (tmp - endChar + startChar - 1);
+      } else {
+        encryptedChar = tmp;
+      }
+
+      System.out.printf("input char [%c] within [%c] and [%c] and encrypted to [%c] with a rotation factor of [%d] (effective of: [%d])%n",
+                        inputChar, startChar, endChar, encryptedChar, rotationFactor, effectiveRotationFactor);
+    } else {
+      encryptedChar = inputChar;
     }
+
+    return encryptedChar;
+  }
 }
