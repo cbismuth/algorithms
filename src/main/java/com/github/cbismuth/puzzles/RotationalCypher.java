@@ -68,6 +68,16 @@ class RotationalCypher {
     return encrypted;
   }
 
+  /**
+   * Encrypts a single character.
+   *
+   * @param rotationFactor a rotation factor
+   * @param startChar an alphanumeric start character
+   * @param endChar an alphanumeric end character
+   * @param inputChar an input character
+   *
+   * @return the encrypted character
+   */
   private char encryptChar(final int rotationFactor,
                            final char startChar,
                            final char endChar,
