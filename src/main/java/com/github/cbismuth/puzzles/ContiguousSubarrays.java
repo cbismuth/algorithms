@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-package com.github.cbismuth.facebook.recruiting;
+package com.github.cbismuth.puzzles;
 
 /**
  * <b>Contiguous Subarrays</b>

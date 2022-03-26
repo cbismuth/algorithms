@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-package com.github.cbismuth.facebook.recruiting;
+package com.github.cbismuth.puzzles;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
