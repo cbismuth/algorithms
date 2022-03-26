@@ -32,10 +32,6 @@
     <artifactId>puzzles</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <prerequisites>
-        <maven>3.3.9</maven>
-    </prerequisites>
-
     <properties>
         <encoding>UTF-8</encoding>
         <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
