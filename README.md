@@ -8,3 +8,6 @@ Pretty own playground to hack on coding exercises.
 * Contiguous Subarrays -
   [sources](src/main/java/com/github/cbismuth/puzzles/ContiguousSubarrays.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/ContiguousSubarraysTest.java)
+* Pair Sums -
+  [sources](src/main/java/com/github/cbismuth/puzzles/PairSums.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/PairSumsTest.java)
