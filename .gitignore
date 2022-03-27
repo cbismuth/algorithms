@@ -6,6 +6,7 @@ target/
 
 # JetBrains IntelliJ IDEA
 *.iml
+.run/
 .idea/*
 !.idea/copyright/
 !.idea/codeStyles/
