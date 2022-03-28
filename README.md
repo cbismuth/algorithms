@@ -13,3 +13,6 @@ Pretty own playground to hack on coding exercises.
 * Pair Sums -
   [sources](src/main/java/com/github/cbismuth/puzzles/PairSums.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/PairSumsTest.java)
+* Reverse to Make Equal -
+  [sources](src/main/java/com/github/cbismuth/puzzles/ReverseToMakeEqual.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/ReverseToMakeEqualTest.java)
