@@ -38,12 +38,12 @@ class PairSumsTest {
                      Arguments.arguments(new int[] { 1, 5, 3, 3, 3 }, 6, 4));
   }
 
-  private final PairSums pairSums = new PairSums();
+  private final PairSums service = new PairSums();
 
   @ParameterizedTest
   @MethodSource("data")
   void testNumberOfWays(final int[] input, final int k, final int expected) {
-    final int actual = pairSums.numberOfWays(input, k);
+    final int actual = service.numberOfWays(input, k);
 
     Assertions.assertEquals(expected, actual);
   }

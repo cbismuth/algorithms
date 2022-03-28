@@ -38,12 +38,12 @@ class ContiguousSubarraysTest {
                      Arguments.arguments(new int[] { 2, 4, 7, 1, 5, 3 }, new int[] { 1, 2, 6, 1, 3, 1 }));
   }
 
-  private final ContiguousSubarrays contiguousSubarrays = new ContiguousSubarrays();
+  private final ContiguousSubarrays service = new ContiguousSubarrays();
 
   @ParameterizedTest
   @MethodSource("data")
   void testCountSubarrays(final int[] input, final int[] expected) {
-    final int[] actual = contiguousSubarrays.countSubarrays(input);
+    final int[] actual = service.countSubarrays(input);
 
     Assertions.assertArrayEquals(expected, actual);
   }

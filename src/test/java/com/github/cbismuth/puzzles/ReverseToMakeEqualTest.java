@@ -42,12 +42,12 @@ class ReverseToMakeEqualTest {
                      Arguments.arguments(new int[] { 1, 2, 3, 4 }, new int[] { 1, 4, 3, 3 }, false));
   }
 
-  private final ReverseToMakeEqual reverseToMakeEqual = new ReverseToMakeEqual();
+  private final ReverseToMakeEqual service = new ReverseToMakeEqual();
 
   @ParameterizedTest
   @MethodSource("data")
   void testNumberOfWays(final int[] a, final int[] b, final boolean expected) {
-    final boolean actual = reverseToMakeEqual.areTheyEqual(a, b);
+    final boolean actual = service.areTheyEqual(a, b);
 
     Assertions.assertEquals(expected, actual);
   }

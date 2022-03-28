@@ -38,12 +38,12 @@ class RotationalCypherTest {
                      Arguments.arguments("abcdZXYzxy-999.@", 200, "stuvRPQrpq-999.@"));
   }
 
-  private final RotationalCypher rotationalCypher = new RotationalCypher();
+  private final RotationalCypher service = new RotationalCypher();
 
   @ParameterizedTest
   @MethodSource("data")
   void testRotationalCipher(final String input, final int rotationFactor, final String expected) {
-    final String actual = rotationalCypher.rotationalCipher(input, rotationFactor);
+    final String actual = service.rotationalCipher(input, rotationFactor);
 
     Assertions.assertEquals(expected, actual);
   }
