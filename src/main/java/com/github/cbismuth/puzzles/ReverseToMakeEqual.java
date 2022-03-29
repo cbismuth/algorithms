@@ -33,7 +33,7 @@ package com.github.cbismuth.puzzles;
 class ReverseToMakeEqual {
 
   /**
-   * Swaps values at indices <code>index1</code> and <code>index2</code> in a given array.
+   * Swaps values at indices {@code index1} and {@code index2} in a given array.
    *
    * @param array an input array
    * @param index1 a first index
@@ -46,14 +46,14 @@ class ReverseToMakeEqual {
   }
 
   /**
-   * Finds the first value that matches <code>expected</code> in a given array from the index <code>i+1</code> and swap
-   * it with the value located at the index <code>i</code>.
+   * Finds the first value that matches {@code expected} in a given array from the index {@code i+1} and swap it with
+   * the value located at the index {@code i}.
    *
    * @param array an input array
    * @param i the index of the value to permute
    * @param expected an expected value to match
    *
-   * @return <code>true</code> if permutation succeeded, <code>false</code> otherwise.
+   * @return {@code true} if permutation succeeded, {@code false} otherwise.
    */
   private boolean permutes(final int[] array, final int i, final int expected) {
     for (int j = i + 1; j < array.length; j++) {
@@ -76,7 +76,7 @@ class ReverseToMakeEqual {
    * @param array1 a first input array
    * @param array2 a second input array
    *
-   * @return <code>true</code> if there is a way to make A equal to B, <code>false</code> otherwise.
+   * @return {@code true} if there is a way to make A equal to B, {@code false} otherwise.
    */
   boolean areTheyEqual(final int[] array1, final int[] array2) {
     if (array1.length != array2.length) {
