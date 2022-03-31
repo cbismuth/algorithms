@@ -27,8 +27,8 @@ package com.github.cbismuth.puzzles;
 /**
  * <b>Reverse to Make Equal</b>
  * <p>
- * Given two arrays A and B of length N, determine if there is a way to make A equal to B by reversing any subarrays
- * from array B any number of times.
+ * Given two arrays {@code A} and {@code B} of length {@code N}, determine if there is a way to make {@code A} equal to
+ * {@code B} by reversing any subarrays from array {@code B} any number of times.
  */
 class ReverseToMakeEqual {
 
@@ -67,16 +67,16 @@ class ReverseToMakeEqual {
   }
 
   /**
-   * Given two arrays A and B of length N, determines if there is a way to make A equal to B by reversing any subarrays
-   * from array B any number of times.
+   * Given two arrays {@code A} and {@code B} of length {@code N}, determines if there is a way to make {@code A} equal
+   * to {@code B} by reversing any subarrays from array {@code B} any number of times.
    * <p>
-   * Cyclomatic complexity is <b>O(n^2)</b> as the input array may be partially iterated once for each element it
+   * Cyclomatic complexity is {@code O(n^2)} as the input array may be partially iterated once for each element it
    * contains.
    *
    * @param array1 a first input array
    * @param array2 a second input array
    *
-   * @return {@code true} if there is a way to make A equal to B, {@code false} otherwise.
+   * @return {@code true} if there is a way to make {@code A} equal to {@code B}, {@code false} otherwise.
    */
   boolean areTheyEqual(final int[] array1, final int[] array2) {
     if (array1.length != array2.length) {

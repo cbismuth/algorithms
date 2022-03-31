@@ -31,10 +31,10 @@ package com.github.cbismuth.puzzles;
  * character means replacing it with another character that is a certain number of steps away in normal alphabetic or
  * numerical order.
  * <p>
- * For example, if the string "Zebra-493?" is rotated 3 places, the resulting string is "Cheud-726?". Every alphabetic
- * character is replaced with the character 3 letters higher (wrapping around from Z to A), and every numeric character
- * replaced with the character 3 digits higher (wrapping around from 9 to 0). Note that the non-alphanumeric characters
- * remain unchanged.
+ * For example, if the string {@code Zebra-493?} is rotated 3 places, the resulting string is {@code Cheud-726?}. Every
+ * alphabetic character is replaced with the character 3 letters higher (wrapping around from {@code Z} to {@code A}),
+ * and every numeric character replaced with the character 3 digits higher (wrapping around from {@code 9} to {@code
+ * 0}). Note that the non-alphanumeric characters remain unchanged.
  * <p>
  * Given a string and a rotation factor, return an encrypted string.
  */
@@ -43,8 +43,8 @@ class RotationalCypher {
   /**
    * Encrypts a string by rotating each alphanumeric character.
    * <p>
-   * Cyclomatic complexity is <b>O(n)</b> as the input string characters have to be iterated over only once. Besides, no
-   * initial copy of the input string is required.
+   * Cyclomatic complexity is {@code O(n)} as the input string characters have to be iterated over only once. Besides,
+   * no initial copy of the input string is required.
    *
    * @param input an input string
    * @param rotationFactor a rotation factor

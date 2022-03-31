@@ -27,12 +27,12 @@ package com.github.cbismuth.puzzles;
 /**
  * <b>Contiguous Subarrays</b>
  * <p>
- * You are given an array of N integers. For each index i, you are required to determine the number of contiguous
- * subarrays that fulfill the following conditions:
+ * You are given an array of {@code N} integers. For each index {@code i}, you are required to determine the number of
+ * contiguous subarrays that fulfill the following conditions:
  *
  * <ul>
- *   <li>the value at index i must be the maximum element in the contiguous subarrays,</li>
- *   <li>and these contiguous subarrays must either start from or end on index i.</li>
+ *   <li>the value at index {@code i} must be the maximum element in the contiguous subarrays,</li>
+ *   <li>and these contiguous subarrays must either start from or end on index {@code i}.</li>
  * </ul>
  */
 class ContiguousSubarrays {
@@ -40,7 +40,7 @@ class ContiguousSubarrays {
   /**
    * Counts subarrays from an input array.
    * <p>
-   * Cyclomatic complexity is O(n*(n+n))=<b>O(n^2)</b> as the input array is iterated twice for each element it
+   * Cyclomatic complexity is {@code O(n*(n+n))=O(n^2)} as the input array is iterated twice for each element it
    * contains.
    *
    * @param input an input array

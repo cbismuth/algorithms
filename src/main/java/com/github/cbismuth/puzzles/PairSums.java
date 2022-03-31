@@ -29,7 +29,8 @@ import java.util.Arrays;
 /**
  * <b>Pair Sums</b>
  * <p>
- * Given a list of n integers [0..(n-1)], determine the number of different pairs of elements within it which sum to k.
+ * Given a list of n integers {@code [0..(n-1)]}, determine the number of different pairs of elements within it which
+ * sum to {@code k}.
  * <p>
  * If an integer appears in the list multiple times, each copy is considered to be different; that is, two pairs are
  * considered different if one pair includes at least one array index which the other doesn't, even if they include the
@@ -38,10 +39,10 @@ import java.util.Arrays;
 class PairSums {
 
   /**
-   * Determines the number of different pairs of elements within it which sum to k, then triggers a recursion with the
-   * subarray containing all elements but the first one and accumulates sums.
+   * Determines the number of different pairs of elements within it which sum to {@code k}, then triggers a recursion
+   * with the subarray containing all elements but the first one and accumulates sums.
    * <p>
-   * Cyclomatic complexity is O(n+(n-1)+(n-2)+...+2+1)=O(n*(n-1)/2)=<b>O(n^2)</b> as the input array is iterated twice
+   * Cyclomatic complexity is {@code O(n+(n-1)+(n-2)+...+2+1)=O(n*(n-1)/2)=O(n^2)} as the input array is iterated twice
    * for each element it contains.
    *
    * @param input an input array of integers
@@ -66,7 +67,7 @@ class PairSums {
   }
 
   /**
-   * Determines the number of different pairs of elements within it which sum to k.
+   * Determines the number of different pairs of elements within it which sum to {@code k}.
    *
    * @param input an input array of integers
    * @param k an expected value
