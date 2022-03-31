@@ -19,3 +19,6 @@ Pretty own playground to hack on coding exercises.
 * Passing Yearbooks -
   [sources](src/main/java/com/github/cbismuth/puzzles/PassingYearbooks.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/PassingYearbooksTest.java)
+* Largest Triple Products -
+  [sources](src/main/java/com/github/cbismuth/puzzles/LargestTripleProducts.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/LargestTripleProductsTest.java)
