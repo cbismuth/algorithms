@@ -24,6 +24,9 @@
 
 package com.github.cbismuth.puzzles.utils;
 
+import java.util.Objects;
+import java.util.StringJoiner;
+
 /**
  * This class represents a pair of values.
  *
@@ -38,6 +41,23 @@ public class MutablePair<L, R> {
   public MutablePair(final L left, final R right) {
     this.left = left;
     this.right = right;
+  }
+
+  @Override
+  public boolean equals(final Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    final MutablePair<?, ?> that = (MutablePair<?, ?>) o;
+    return Objects.equals(left, that.left) && Objects.equals(right, that.right);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(left, right);
   }
 
   /**
@@ -67,5 +87,12 @@ public class MutablePair<L, R> {
    */
   public R getRight() {
     return right;
+  }
+
+  @Override
+  public String toString() {
+    return new StringJoiner(", ").add("left=" + left)
+                                 .add("right=" + right)
+                                 .toString();
   }
 }

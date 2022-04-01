@@ -24,52 +24,22 @@
 
 package com.github.cbismuth.puzzles.utils;
 
-/**
- * Utility class enclosing array method helpers.
- */
-public final class ArraysHelper {
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
-  /**
-   * Finds the min element of an input array.
-   *
-   * @param input an input array
-   *
-   * @return the min
-   */
-  public static MutablePair<Integer, Integer> max(final int[] input) {
-    // A mutable pair of {index, value} of the max element of the input array
-    final MutablePair<Integer, Integer> max = new MutablePair<>(Integer.MIN_VALUE, Integer.MIN_VALUE);
+class ArraysHelperTest {
 
-    for (int i = 0; i < input.length; i++) {
-      if (input[i] > max.getRight()) {
-        max.set(i, input[i]);
-      }
-    }
+  @Test
+  void testMax() {
+    final int[] input = { 1, 2, 3, 10, 4, 5 };
 
-    return max;
+    Assertions.assertEquals(new MutablePair<>(3, 10), ArraysHelper.max(input));
   }
 
-  /**
-   * Finds the min element of an input array.
-   *
-   * @param input an input array
-   *
-   * @return the min
-   */
-  public static MutablePair<Integer, Integer> min(final int[] input) {
-    // A mutable pair of {index, value} of the min element of the input array
-    final MutablePair<Integer, Integer> min = new MutablePair<>(Integer.MAX_VALUE, Integer.MAX_VALUE);
+  @Test
+  void testMin() {
+    final int[] input = { 1, 2, 3, -10, 4, 5 };
 
-    for (int i = 0; i < input.length; i++) {
-      if (input[i] < min.getRight()) {
-        min.set(i, input[i]);
-      }
-    }
-
-    return min;
-  }
-
-  private ArraysHelper() {
-    // NOP
+    Assertions.assertEquals(new MutablePair<>(3, -10), ArraysHelper.min(input));
   }
 }
