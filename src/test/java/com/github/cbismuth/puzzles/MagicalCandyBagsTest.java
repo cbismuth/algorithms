@@ -42,7 +42,7 @@ class MagicalCandyBagsTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testCountSubarrays(final int[] input, final int k, final int expected) {
+  void testMaxCandies(final int[] input, final int k, final int expected) {
     final int actual = service.maxCandies(input, k);
 
     Assertions.assertEquals(expected, actual);
