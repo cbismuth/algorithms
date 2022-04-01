@@ -33,6 +33,9 @@ Pretty own playground to hack on coding exercises.
 * Rotational Cipher -
   [sources](src/main/java/com/github/cbismuth/puzzles/RotationalCypher.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/RotationalCypherTest.java)
+* MatchingPairs -
+  [sources](src/main/java/com/github/cbismuth/puzzles/MatchingPairs.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/MatchingPairsTest.java)
 
 ## Greedy algorithms
 

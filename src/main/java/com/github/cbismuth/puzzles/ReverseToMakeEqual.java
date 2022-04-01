@@ -24,6 +24,8 @@
 
 package com.github.cbismuth.puzzles;
 
+import com.github.cbismuth.puzzles.utils.ArraysHelper;
+
 /**
  * <b>Reverse to Make Equal</b>
  * <p>
@@ -31,19 +33,6 @@ package com.github.cbismuth.puzzles;
  * {@code B} by reversing any subarrays from array {@code B} any number of times.
  */
 class ReverseToMakeEqual {
-
-  /**
-   * Swaps values at indices {@code index1} and {@code index2} in a given array.
-   *
-   * @param array an input array
-   * @param index1 a first index
-   * @param index2 a second index
-   */
-  private void swap(final int[] array, final int index1, final int index2) {
-    final int tmp = array[index1];
-    array[index1] = array[index2];
-    array[index2] = tmp;
-  }
 
   /**
    * Finds the first value that matches {@code expected} in a given array from the index {@code i+1} and swap it with
@@ -58,7 +47,7 @@ class ReverseToMakeEqual {
   private boolean permutes(final int[] array, final int i, final int expected) {
     for (int j = i + 1; j < array.length; j++) {
       if (array[j] == expected) {
-        swap(array, i, j);
+        ArraysHelper.swap(array, i, j);
         return true;
       }
     }

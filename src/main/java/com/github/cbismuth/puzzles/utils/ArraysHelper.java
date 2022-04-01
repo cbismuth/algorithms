@@ -30,6 +30,32 @@ package com.github.cbismuth.puzzles.utils;
 public final class ArraysHelper {
 
   /**
+   * Swaps values at indices {@code index1} and {@code index2} in a given array.
+   *
+   * @param array an input array
+   * @param index1 a first index
+   * @param index2 a second index
+   */
+  public static void swap(final char[] array, final int index1, final int index2) {
+    final char tmp = array[index1];
+    array[index1] = array[index2];
+    array[index2] = tmp;
+  }
+
+  /**
+   * Swaps values at indices {@code index1} and {@code index2} in a given array.
+   *
+   * @param array an input array
+   * @param index1 a first index
+   * @param index2 a second index
+   */
+  public static void swap(final int[] array, final int index1, final int index2) {
+    final int tmp = array[index1];
+    array[index1] = array[index2];
+    array[index2] = tmp;
+  }
+
+  /**
    * Finds the max element of an input array.
    *
    * @param input an input array
