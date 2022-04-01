@@ -24,6 +24,9 @@
 
 package com.github.cbismuth.puzzles;
 
+import com.github.cbismuth.puzzles.utils.ArraysHelper;
+import com.github.cbismuth.puzzles.utils.MutablePair;
+
 import java.util.Arrays;
 
 /**
@@ -38,72 +41,6 @@ import java.util.Arrays;
  * be at different indices in input.
  */
 class LargestTripleProducts {
-
-  /**
-   * This class represents a pair of values.
-   *
-   * @param <L> the type of the left value
-   * @param <R> the type of the right value
-   */
-  private static class MutablePair<L, R> {
-
-    private L left;
-    private R right;
-
-    public MutablePair(final L left, final R right) {
-      this.left = left;
-      this.right = right;
-    }
-
-    /**
-     * Sets the values of this pair.
-     *
-     * @param left a left value
-     * @param right a right value
-     */
-    private void set(final L left, final R right) {
-      this.left = left;
-      this.right = right;
-    }
-
-    /**
-     * Returns the left value of this pair.
-     *
-     * @return the left value
-     */
-    private L getLeft() {
-      return left;
-    }
-
-    /**
-     * Returns the right value of this pair.
-     *
-     * @return the right value
-     */
-    private R getRight() {
-      return right;
-    }
-  }
-
-  /**
-   * Finds the min element of an input array.
-   *
-   * @param input an input array
-   *
-   * @return the min
-   */
-  private MutablePair<Integer, Integer> min(final int[] input) {
-    // A mutable pair of {index, value} of the min element of the input array
-    final MutablePair<Integer, Integer> min = new MutablePair<>(Integer.MAX_VALUE, Integer.MAX_VALUE);
-
-    for (int i = 0; i < input.length; i++) {
-      if (input[i] < min.getRight()) {
-        min.set(i, input[i]);
-      }
-    }
-
-    return min;
-  }
 
   /**
    * Computes the product of all elements of an input array.
@@ -137,7 +74,7 @@ class LargestTripleProducts {
       Arrays.fill(tmp, -1);
 
       for (int j = 0; j <= i && i >= 2; j++) {
-        final MutablePair<Integer, Integer> min = min(tmp);
+        final MutablePair<Integer, Integer> min = ArraysHelper.min(tmp);
 
         if (input[j] > min.getRight()) {
           tmp[min.getLeft()] = input[j];
