@@ -33,9 +33,12 @@ Pretty own playground to hack on coding exercises.
 * Rotational Cipher -
   [sources](src/main/java/com/github/cbismuth/puzzles/RotationalCypher.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/RotationalCypherTest.java)
-* MatchingPairs -
+* Matching Pairs -
   [sources](src/main/java/com/github/cbismuth/puzzles/MatchingPairs.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/MatchingPairsTest.java)
+* Minimum Length Substrings -
+  [sources](src/main/java/com/github/cbismuth/puzzles/MinimumLengthSubstrings.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/MinimumLengthSubstringsTest.java)
 
 ## Greedy algorithms
 

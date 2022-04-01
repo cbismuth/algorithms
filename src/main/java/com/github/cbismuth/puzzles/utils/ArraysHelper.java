@@ -56,6 +56,25 @@ public final class ArraysHelper {
   }
 
   /**
+   * Returns the index of the expected character.
+   *
+   * @param input an input array
+   * @param length a maximum length to browse
+   * @param expected an expected character
+   *
+   * @return the index of the expected character or {@code -1}
+   */
+  public static int getIndexOfChar(final char[] input, final int length, final char expected) {
+    for (int i = 0; i < length; i++) {
+      if (input[i] == expected) {
+        return i;
+      }
+    }
+
+    return -1;
+  }
+
+  /**
    * Finds the max element of an input array.
    *
    * @param input an input array
