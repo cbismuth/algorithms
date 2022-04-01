@@ -40,7 +40,7 @@ import com.github.cbismuth.puzzles.utils.MutablePair;
  * <p>
  * You have {@code k} minutes to eat as much candy as possible. How many pieces of candy can you eat?
  */
-public class MagicalCandyBags {
+class MagicalCandyBags {
 
   /**
    * Computes how many pieces of candy can you eat.
