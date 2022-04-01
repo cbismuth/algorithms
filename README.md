@@ -22,3 +22,6 @@ Pretty own playground to hack on coding exercises.
 * Largest Triple Products -
   [sources](src/main/java/com/github/cbismuth/puzzles/LargestTripleProducts.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/LargestTripleProductsTest.java)
+* Magical Candy Bags -
+  [sources](src/main/java/com/github/cbismuth/puzzles/MagicalCandyBags.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/MagicalCandyBagsTest.java)
