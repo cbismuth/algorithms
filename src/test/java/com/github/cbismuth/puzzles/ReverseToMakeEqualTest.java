@@ -46,7 +46,7 @@ class ReverseToMakeEqualTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testNumberOfWays(final int[] a, final int[] b, final boolean expected) {
+  void test(final int[] a, final int[] b, final boolean expected) {
     final boolean actual = service.areTheyEqual(a, b);
 
     Assertions.assertEquals(expected, actual);

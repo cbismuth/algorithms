@@ -42,7 +42,7 @@ class PassingYearbooksTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testFindSignatureCounts(final int[] input, final int[] expected) {
+  void test(final int[] input, final int[] expected) {
     final int[] actual = service.findSignatureCounts(input);
 
     Assertions.assertArrayEquals(expected, actual);

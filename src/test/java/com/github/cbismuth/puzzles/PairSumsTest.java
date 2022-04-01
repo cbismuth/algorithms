@@ -42,7 +42,7 @@ class PairSumsTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testNumberOfWays(final int[] input, final int k, final int expected) {
+  void test(final int[] input, final int k, final int expected) {
     final int actual = service.numberOfWays(input, k);
 
     Assertions.assertEquals(expected, actual);

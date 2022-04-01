@@ -42,7 +42,7 @@ class RotationalCypherTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testRotationalCipher(final String input, final int rotationFactor, final String expected) {
+  void test(final String input, final int rotationFactor, final String expected) {
     final String actual = service.rotationalCipher(input, rotationFactor);
 
     Assertions.assertEquals(expected, actual);

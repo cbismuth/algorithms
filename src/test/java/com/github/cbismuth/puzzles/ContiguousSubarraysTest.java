@@ -42,7 +42,7 @@ class ContiguousSubarraysTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testCountSubarrays(final int[] input, final int[] expected) {
+  void test(final int[] input, final int[] expected) {
     final int[] actual = service.countSubarrays(input);
 
     Assertions.assertArrayEquals(expected, actual);

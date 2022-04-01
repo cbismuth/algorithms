@@ -42,7 +42,7 @@ class LargestTripleProductsTest {
 
   @ParameterizedTest
   @MethodSource("data")
-  void testFindMaxProduct(final int[] input, final int[] expected) {
+  void test(final int[] input, final int[] expected) {
     final int[] actual = service.findMaxProduct(input);
 
     Assertions.assertArrayEquals(expected, actual);
