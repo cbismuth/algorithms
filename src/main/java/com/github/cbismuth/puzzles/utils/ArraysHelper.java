@@ -30,11 +30,11 @@ package com.github.cbismuth.puzzles.utils;
 public final class ArraysHelper {
 
   /**
-   * Finds the min element of an input array.
+   * Finds the max element of an input array.
    *
    * @param input an input array
    *
-   * @return the min
+   * @return the max
    */
   public static MutablePair<Integer, Integer> max(final int[] input) {
     // A mutable pair of {index, value} of the max element of the input array
