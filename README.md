@@ -42,6 +42,13 @@ Pretty own playground to hack on coding puzzles.
 
 ## Greedy algorithms
 
+* Slow Sums -
+  [sources](src/main/java/com/github/cbismuth/puzzles/SlowSums.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/SlowSumsTest.java)
+* Element Swapping -
+  [sources](src/main/java/com/github/cbismuth/puzzles/ElementSwapping.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/ElementSwappingTest.java)
+
 ## Trees
 
 ## Search

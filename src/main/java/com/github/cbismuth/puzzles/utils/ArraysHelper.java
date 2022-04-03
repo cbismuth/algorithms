@@ -114,6 +114,26 @@ public final class ArraysHelper {
     return min;
   }
 
+  /**
+   * Returns the index of the min element.
+   *
+   * @param input an input array
+   * @param length the max length to reach
+   *
+   * @return the index of the min element
+   */
+  public static int getMinIndex(final int[] input, final int length) {
+    int minIndex = 0;
+
+    for (int i = 1; i < length + 1; i++) {
+      if (input[i] < input[minIndex]) {
+        minIndex = i;
+      }
+    }
+
+    return minIndex;
+  }
+
   private ArraysHelper() {
     // NOP
   }

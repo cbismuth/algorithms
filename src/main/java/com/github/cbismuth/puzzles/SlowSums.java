@@ -38,7 +38,7 @@ import java.util.Arrays;
  * which would transform the list into {@code [1, 5, 4, 5]} and incur a penalty of {@code 5}. The goal in this problem
  * is to find the <b>highest</b> possible penalty for a given input.
  */
-public class SlowSums {
+class SlowSums {
 
   /**
    * Reduces a sorted array by summing the last two elements.
