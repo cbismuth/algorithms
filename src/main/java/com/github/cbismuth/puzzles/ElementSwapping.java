@@ -49,7 +49,7 @@ class ElementSwapping {
    * @return the lexicographically smallest sequence
    */
   int[] findMinArray(final int[] input, final int k) {
-    final int minIndex = ArraysHelper.getMinIndex(input, k);
+    final int minIndex = ArraysHelper.getMin(input, k + 1).getLeft();
 
     for (int i = minIndex; i > 0; i--) {
       ArraysHelper.swap(input, i - 1, i);

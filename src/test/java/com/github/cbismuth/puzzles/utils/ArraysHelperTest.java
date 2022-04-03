@@ -33,13 +33,13 @@ class ArraysHelperTest {
   void testMax() {
     final int[] input = { 1, 2, 3, 10, 4, 5 };
 
-    Assertions.assertEquals(new MutablePair<>(3, 10), ArraysHelper.max(input));
+    Assertions.assertEquals(new MutablePair<>(3, 10), ArraysHelper.getMax(input, input.length));
   }
 
   @Test
   void testMin() {
     final int[] input = { 1, 2, 3, -10, 4, 5 };
 
-    Assertions.assertEquals(new MutablePair<>(3, -10), ArraysHelper.min(input));
+    Assertions.assertEquals(new MutablePair<>(3, -10), ArraysHelper.getMin(input, input.length));
   }
 }

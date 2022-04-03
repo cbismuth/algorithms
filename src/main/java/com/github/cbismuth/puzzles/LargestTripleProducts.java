@@ -74,7 +74,7 @@ class LargestTripleProducts {
       Arrays.fill(tmp, -1);
 
       for (int j = 0; j <= i && i >= 2; j++) {
-        final MutablePair<Integer, Integer> min = ArraysHelper.min(tmp);
+        final MutablePair<Integer, Integer> min = ArraysHelper.getMin(tmp, tmp.length);
 
         if (input[j] > min.getRight()) {
           tmp[min.getLeft()] = input[j];

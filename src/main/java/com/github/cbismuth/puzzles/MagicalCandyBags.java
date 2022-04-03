@@ -57,7 +57,7 @@ class MagicalCandyBags {
     int output = 0;
 
     for (int i = 0; i < k; i++) {
-      final MutablePair<Integer, Integer> max = ArraysHelper.max(input);
+      final MutablePair<Integer, Integer> max = ArraysHelper.getMax(input, input.length);
 
       final int index = max.getLeft();
       final int value = input[index];

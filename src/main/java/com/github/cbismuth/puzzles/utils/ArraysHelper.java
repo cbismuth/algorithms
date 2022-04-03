@@ -78,14 +78,15 @@ public final class ArraysHelper {
    * Finds the max element of an input array.
    *
    * @param input an input array
+   * @param length the max length to reach
    *
-   * @return the max
+   * @return the max as a mutable pair of {@code {index, value}}
    */
-  public static MutablePair<Integer, Integer> max(final int[] input) {
+  public static MutablePair<Integer, Integer> getMax(final int[] input, final int length) {
     // A mutable pair of {index, value} of the max element of the input array
     final MutablePair<Integer, Integer> max = new MutablePair<>(Integer.MIN_VALUE, Integer.MIN_VALUE);
 
-    for (int i = 0; i < input.length; i++) {
+    for (int i = 0; i < length; i++) {
       if (input[i] > max.getRight()) {
         max.set(i, input[i]);
       }
@@ -98,40 +99,21 @@ public final class ArraysHelper {
    * Finds the min element of an input array.
    *
    * @param input an input array
+   * @param length the max length to reach
    *
-   * @return the min
+   * @return the min as a mutable pair of {@code {index, value}}
    */
-  public static MutablePair<Integer, Integer> min(final int[] input) {
+  public static MutablePair<Integer, Integer> getMin(final int[] input, final int length) {
     // A mutable pair of {index, value} of the min element of the input array
     final MutablePair<Integer, Integer> min = new MutablePair<>(Integer.MAX_VALUE, Integer.MAX_VALUE);
 
-    for (int i = 0; i < input.length; i++) {
+    for (int i = 0; i < length; i++) {
       if (input[i] < min.getRight()) {
         min.set(i, input[i]);
       }
     }
 
     return min;
-  }
-
-  /**
-   * Returns the index of the min element.
-   *
-   * @param input an input array
-   * @param length the max length to reach
-   *
-   * @return the index of the min element
-   */
-  public static int getMinIndex(final int[] input, final int length) {
-    int minIndex = 0;
-
-    for (int i = 1; i < length + 1; i++) {
-      if (input[i] < input[minIndex]) {
-        minIndex = i;
-      }
-    }
-
-    return minIndex;
   }
 
   private ArraysHelper() {
