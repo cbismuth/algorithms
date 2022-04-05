@@ -54,6 +54,10 @@ Pretty own playground to hack on coding puzzles.
 
 ## Trees
 
+* Number of Visible Nodes -
+  [sources](src/main/java/com/github/cbismuth/puzzles/NumberOfVisibleNodes.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/NumberOfVisibleNodesTest.java)
+
 ## Search
 
 ## Recursion
