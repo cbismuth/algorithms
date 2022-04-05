@@ -48,6 +48,9 @@ Pretty own playground to hack on coding puzzles.
 * Element Swapping -
   [sources](src/main/java/com/github/cbismuth/puzzles/ElementSwapping.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/ElementSwappingTest.java)
+* Seating Arrangements -
+  [sources](src/main/java/com/github/cbismuth/puzzles/SeatingArrangements.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/SeatingArrangementsTest.java)
 
 ## Trees
 
