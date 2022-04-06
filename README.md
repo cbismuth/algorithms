@@ -63,6 +63,10 @@ Pretty own playground to hack on coding puzzles.
 
 ## Search
 
+* Revenue Milestones -
+  [sources](src/main/java/com/github/cbismuth/puzzles/RevenueMilestones.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/RevenueMilestonesTest.java)
+
 ## Recursion
 
 ## Sorting
