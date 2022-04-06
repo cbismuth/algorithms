@@ -57,6 +57,9 @@ Pretty own playground to hack on coding puzzles.
 * Number of Visible Nodes -
   [sources](src/main/java/com/github/cbismuth/puzzles/NumberOfVisibleNodes.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/NumberOfVisibleNodesTest.java)
+* Nodes in a Subtree -
+  [sources](src/main/java/com/github/cbismuth/puzzles/NodesInSubtree.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/NodesInSubtreeTest.java)
 
 ## Search
 

@@ -24,6 +24,8 @@
 
 package com.github.cbismuth.puzzles;
 
+import com.github.cbismuth.puzzles.utils.MutableBinaryNode;
+
 /**
  * <b>Number of Visible Nodes</b>
  * <p>
@@ -36,21 +38,6 @@ package com.github.cbismuth.puzzles;
 class NumberOfVisibleNodes {
 
   /**
-   * This class represents a binary tree node.
-   */
-  static class Node {
-
-    final int data;
-
-    Node left;
-    Node right;
-
-    Node(final int data) {
-      this.data = data;
-    }
-  }
-
-  /**
    * Determines the depth of a tree from a node at a given level.
    *
    * @param node a node
@@ -58,7 +45,7 @@ class NumberOfVisibleNodes {
    *
    * @return the depth
    */
-  private int count(final Node node, final int level) {
+  private int count(final MutableBinaryNode node, final int level) {
     if (node == null) {
       return level - 1;
     } else {
@@ -77,7 +64,7 @@ class NumberOfVisibleNodes {
    *
    * @return the number of visible leftmost nodes
    */
-  int visibleNodes(final Node root) {
+  int visibleNodes(final MutableBinaryNode root) {
     return count(root, 1);
   }
 }
