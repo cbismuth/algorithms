@@ -82,6 +82,8 @@ class NodesInSubtree {
    * @param root a root node
    * @param queries a list of queries to match
    * @param string a string to decode nodes
+   *
+   * @return the array of query match counts
    */
   int[] countOfNodes(final MutableNode root, final List<IntCharQuery> queries, final String string) {
     final int[] queryMatchCounts = new int[queries.size()];
