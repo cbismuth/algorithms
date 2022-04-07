@@ -66,6 +66,9 @@ Pretty own playground to hack on coding puzzles.
 * Revenue Milestones -
   [sources](src/main/java/com/github/cbismuth/puzzles/RevenueMilestones.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/RevenueMilestonesTest.java)
+* 1 Billion Users -
+  [sources](src/main/java/com/github/cbismuth/puzzles/OneBillionUsers.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/OneBillionUsersTest.java)
 
 ## Recursion
 
