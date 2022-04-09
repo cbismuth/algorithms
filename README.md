@@ -72,6 +72,10 @@ Pretty own playground to hack on coding puzzles.
 
 ## Recursion
 
+* Encrypted Words -
+  [sources](src/main/java/com/github/cbismuth/puzzles/EncryptedWords.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/EncryptedWordsTest.java)
+
 ## Sorting
 
 ## Stacks
