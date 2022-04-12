@@ -81,6 +81,10 @@ Pretty own playground to hack on coding puzzles.
 
 ## Sorting
 
+* Balanced Split -
+  [sources](src/main/java/com/github/cbismuth/puzzles/BalancedSplit.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/BalancedSplitTest.java)
+
 ## Stacks
 
 ## Hash tables
