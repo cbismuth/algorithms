@@ -75,6 +75,9 @@ Pretty own playground to hack on coding puzzles.
 * Encrypted Words -
   [sources](src/main/java/com/github/cbismuth/puzzles/EncryptedWords.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/EncryptedWordsTest.java)
+* Change in a Foreign Currency -
+  [sources](src/main/java/com/github/cbismuth/puzzles/ChangeForeignCurrency.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/ChangeForeignCurrencyTest.java)
 
 ## Sorting
 
