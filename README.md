@@ -1,6 +1,6 @@
 # Puzzles
 
-[![CI](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions)
+[![build](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
 
 Pretty own playground to hack on coding puzzles.
 
