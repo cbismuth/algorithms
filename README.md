@@ -2,7 +2,7 @@
 
 [![build](https://github.com/cbismuth/algorithms/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/algorithms/actions/workflows/maven.yaml)
 
-## Coding puzzles from Facebook Careers
+## Coding puzzles from [Facebook Careers](https://www.metacareers.com/)
 
 ### Arrays
 
@@ -88,24 +88,8 @@
   [sources](src/main/java/com/github/cbismuth/algorithms/facebook/CountingTriangles.java),
   [tests](src/test/java/com/github/cbismuth/algorithms/facebook/CountingTrianglesTest.java)
 
-### Stacks
-
-Coming sooner or later ...
-
 ### Hash tables
 
 * Pair Sums -
   [sources](src/main/java/com/github/cbismuth/algorithms/facebook/PairSums.java),
   [tests](src/test/java/com/github/cbismuth/algorithms/facebook/PairSumsTest.java)
-
-### Queues
-
-Coming sooner or later ...
-
-### Graphs
-
-Coming sooner or later ...
-
-### Linked lists
-
-Coming sooner or later ...
