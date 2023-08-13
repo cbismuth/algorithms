@@ -68,8 +68,8 @@ class SeatingArrangements {
   }
 
   /**
-   * Determines all permutations from a seating arrangement and the resolves the min between the max awkwardness of each
-   * permutation and the accumulated min value.
+   * Determines all permutations from a seating arrangement and the resolves the min between the max awkwardness of
+   * each permutation and the accumulated min value.
    *
    * @param input a seating arrangement
    * @param depth current recursion depth (a recursion stops when {@code depth == input.length - 1})

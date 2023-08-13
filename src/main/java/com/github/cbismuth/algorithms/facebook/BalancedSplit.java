@@ -38,27 +38,27 @@ import java.util.Arrays;
  */
 class BalancedSplit {
 
-  /**
-   * Determines if there's a way to split the array into two subsequences.
-   *
-   * @param input an input array
-   *
-   * @return {@code true} if there's a way to split, {@code false} otherwise.
-   */
-  boolean balancedSplitExists(final int[] input) {
-    Arrays.sort(input);
+    /**
+     * Determines if there's a way to split the array into two subsequences.
+     *
+     * @param input an input array
+     *
+     * @return {@code true} if there's a way to split, {@code false} otherwise.
+     */
+    boolean balancedSplitExists(final int[] input) {
+        Arrays.sort(input);
 
-    final long expectation = Arrays.stream(input).asLongStream().sum() / 2;
+        final long expectation = Arrays.stream(input).asLongStream().sum() / 2;
 
-    long accumulator = 0;
-    for (int i = 0; i < input.length - 1; i++) {
-      accumulator += input[i];
+        long accumulator = 0;
+        for (int i = 0; i < input.length - 1; i++) {
+            accumulator += input[i];
 
-      if (accumulator == expectation) {
-        return input[i] < input[i + 1];
-      }
+            if (accumulator == expectation) {
+                return input[i] < input[i + 1];
+            }
+        }
+
+        return false;
     }
-
-    return false;
-  }
 }

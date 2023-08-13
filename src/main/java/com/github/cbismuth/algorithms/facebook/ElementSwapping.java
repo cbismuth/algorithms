@@ -40,8 +40,8 @@ import com.github.cbismuth.algorithms.facebook.utils.ArraysHelper;
 class ElementSwapping {
 
   /**
-   * Determines the lexicographically smallest sequence which may be obtained from it after performing at most {@code k}
-   * element swaps.
+   * Determines the lexicographically smallest sequence which may be obtained from it after performing at most
+   * {@code k} element swaps.
    *
    * @param input an input array
    * @param k a max number of swaps to perform

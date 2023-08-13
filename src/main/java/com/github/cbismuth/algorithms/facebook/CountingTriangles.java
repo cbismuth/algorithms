@@ -37,18 +37,18 @@ import java.util.List;
  */
 class CountingTriangles {
 
-  static class Sides {
+    static class Sides {
 
-    int a;
-    int b;
-    int c;
+      int a;
+      int b;
+      int c;
 
-    Sides(final int a, final int b, final int c) {
-      this.a = a;
-      this.b = b;
-      this.c = c;
+      Sides(final int a, final int b, final int c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+      }
     }
-  }
 
   /**
    * Determines how many triangles there are.

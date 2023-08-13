@@ -29,94 +29,94 @@ package com.github.cbismuth.algorithms.facebook.utils;
  */
 public final class ArraysHelper {
 
-  /**
-   * Swaps values at indices {@code index1} and {@code index2} in a given array.
-   *
-   * @param array an input array
-   * @param index1 a first index
-   * @param index2 a second index
-   */
-  public static void swap(final char[] array, final int index1, final int index2) {
-    final char tmp = array[index1];
-    array[index1] = array[index2];
-    array[index2] = tmp;
-  }
-
-  /**
-   * Swaps values at indices {@code index1} and {@code index2} in a given array.
-   *
-   * @param array an input array
-   * @param index1 a first index
-   * @param index2 a second index
-   */
-  public static void swap(final int[] array, final int index1, final int index2) {
-    final int tmp = array[index1];
-    array[index1] = array[index2];
-    array[index2] = tmp;
-  }
-
-  /**
-   * Returns the index of the expected character.
-   *
-   * @param input an input array
-   * @param length a maximum length to browse
-   * @param expected an expected character
-   *
-   * @return the index of the expected character or {@code -1}
-   */
-  public static int getIndexOfChar(final char[] input, final int length, final char expected) {
-    for (int i = 0; i < length; i++) {
-      if (input[i] == expected) {
-        return i;
-      }
+    /**
+     * Swaps values at indices {@code index1} and {@code index2} in a given array.
+     *
+     * @param array an input array
+     * @param index1 a first index
+     * @param index2 a second index
+     */
+    public static void swap(final char[] array, final int index1, final int index2) {
+        final char tmp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = tmp;
     }
 
-    return -1;
-  }
-
-  /**
-   * Finds the max element of an input array.
-   *
-   * @param input an input array
-   * @param length the max length to reach
-   *
-   * @return the max as a mutable pair of {@code {index, value}}
-   */
-  public static MutablePair<Integer, Integer> getMax(final int[] input, final int length) {
-    // A mutable pair of {index, value} of the max element of the input array
-    final MutablePair<Integer, Integer> max = new MutablePair<>(Integer.MIN_VALUE, Integer.MIN_VALUE);
-
-    for (int i = 0; i < length; i++) {
-      if (input[i] > max.getRight()) {
-        max.set(i, input[i]);
-      }
+    /**
+     * Swaps values at indices {@code index1} and {@code index2} in a given array.
+     *
+     * @param array an input array
+     * @param index1 a first index
+     * @param index2 a second index
+     */
+    public static void swap(final int[] array, final int index1, final int index2) {
+        final int tmp = array[index1];
+        array[index1] = array[index2];
+        array[index2] = tmp;
     }
 
-    return max;
-  }
+    /**
+     * Returns the index of the expected character.
+     *
+     * @param input an input array
+     * @param length a maximum length to browse
+     * @param expected an expected character
+     *
+     * @return the index of the expected character or {@code -1}
+     */
+    public static int getIndexOfChar(final char[] input, final int length, final char expected) {
+        for (int i = 0; i < length; i++) {
+            if (input[i] == expected) {
+                return i;
+            }
+        }
 
-  /**
-   * Finds the min element of an input array.
-   *
-   * @param input an input array
-   * @param length the max length to reach
-   *
-   * @return the min as a mutable pair of {@code {index, value}}
-   */
-  public static MutablePair<Integer, Integer> getMin(final int[] input, final int length) {
-    // A mutable pair of {index, value} of the min element of the input array
-    final MutablePair<Integer, Integer> min = new MutablePair<>(Integer.MAX_VALUE, Integer.MAX_VALUE);
-
-    for (int i = 0; i < length; i++) {
-      if (input[i] < min.getRight()) {
-        min.set(i, input[i]);
-      }
+        return -1;
     }
 
-    return min;
-  }
+    /**
+     * Finds the max element of an input array.
+     *
+     * @param input an input array
+     * @param length the max length to reach
+     *
+     * @return the max as a mutable pair of {@code {index, value}}
+     */
+    public static MutablePair<Integer, Integer> getMax(final int[] input, final int length) {
+        // A mutable pair of {index, value} of the max element of the input array
+        final MutablePair<Integer, Integer> max = new MutablePair<>(Integer.MIN_VALUE, Integer.MIN_VALUE);
 
-  private ArraysHelper() {
-    // NOP
-  }
+        for (int i = 0; i < length; i++) {
+            if (input[i] > max.getRight()) {
+                max.set(i, input[i]);
+            }
+        }
+
+        return max;
+    }
+
+    /**
+     * Finds the min element of an input array.
+     *
+     * @param input an input array
+     * @param length the max length to reach
+     *
+     * @return the min as a mutable pair of {@code {index, value}}
+     */
+    public static MutablePair<Integer, Integer> getMin(final int[] input, final int length) {
+        // A mutable pair of {index, value} of the min element of the input array
+        final MutablePair<Integer, Integer> min = new MutablePair<>(Integer.MAX_VALUE, Integer.MAX_VALUE);
+
+        for (int i = 0; i < length; i++) {
+            if (input[i] < min.getRight()) {
+                min.set(i, input[i]);
+            }
+        }
+
+        return min;
+    }
+
+    private ArraysHelper() {
+        // NOP
+    }
 }
