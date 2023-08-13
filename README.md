@@ -2,7 +2,7 @@
 
 [![build](https://github.com/cbismuth/algorithms/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/algorithms/actions/workflows/maven.yaml)
 
-## Coding puzzles from [Facebook Careers](https://www.metacareers.com/)
+## Coding puzzles from [Facebook](https://www.metacareers.com/)
 
 ### Arrays
 
