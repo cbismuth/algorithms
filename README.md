@@ -1,103 +1,111 @@
-# Puzzles
+# Algorithms
 
-[![build](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
+[![build](https://github.com/cbismuth/algorithms/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/algorithms/actions/workflows/maven.yaml)
 
-Pretty own playground to hack on coding puzzles.
+## Coding puzzles from Facebook Careers
 
-## Arrays
+### Arrays
 
 * Reverse to Make Equal -
-  [sources](src/main/java/com/github/cbismuth/puzzles/ReverseToMakeEqual.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/ReverseToMakeEqualTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/ReverseToMakeEqual.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/ReverseToMakeEqualTest.java)
 * Passing Yearbooks -
-  [sources](src/main/java/com/github/cbismuth/puzzles/PassingYearbooks.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/PassingYearbooksTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/PassingYearbooks.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/PassingYearbooksTest.java)
 * Contiguous Subarrays -
-  [sources](src/main/java/com/github/cbismuth/puzzles/ContiguousSubarrays.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/ContiguousSubarraysTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/ContiguousSubarrays.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/ContiguousSubarraysTest.java)
 
-## Heaps
+### Heaps
 
 * Largest Triple Products -
-  [sources](src/main/java/com/github/cbismuth/puzzles/LargestTripleProducts.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/LargestTripleProductsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/LargestTripleProducts.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/LargestTripleProductsTest.java)
 * Magical Candy Bags -
-  [sources](src/main/java/com/github/cbismuth/puzzles/MagicalCandyBags.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/MagicalCandyBagsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/MagicalCandyBags.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/MagicalCandyBagsTest.java)
 * Median Stream -
-  [sources](src/main/java/com/github/cbismuth/puzzles/MedianStream.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/MedianStreamTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/MedianStream.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/MedianStreamTest.java)
 
-## Strings
+### Strings
 
 * Rotational Cipher -
-  [sources](src/main/java/com/github/cbismuth/puzzles/RotationalCypher.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/RotationalCypherTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/RotationalCypher.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/RotationalCypherTest.java)
 * Matching Pairs -
-  [sources](src/main/java/com/github/cbismuth/puzzles/MatchingPairs.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/MatchingPairsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/MatchingPairs.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/MatchingPairsTest.java)
 * Minimum Length Substrings -
-  [sources](src/main/java/com/github/cbismuth/puzzles/MinimumLengthSubstrings.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/MinimumLengthSubstringsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/MinimumLengthSubstrings.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/MinimumLengthSubstringsTest.java)
 
-## Greedy algorithms
+### Greedy algorithms
 
 * Slow Sums -
-  [sources](src/main/java/com/github/cbismuth/puzzles/SlowSums.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/SlowSumsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/SlowSums.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/SlowSumsTest.java)
 * Element Swapping -
-  [sources](src/main/java/com/github/cbismuth/puzzles/ElementSwapping.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/ElementSwappingTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/ElementSwapping.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/ElementSwappingTest.java)
 * Seating Arrangements -
-  [sources](src/main/java/com/github/cbismuth/puzzles/SeatingArrangements.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/SeatingArrangementsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/SeatingArrangements.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/SeatingArrangementsTest.java)
 
-## Trees
+### Trees
 
 * Number of Visible Nodes -
-  [sources](src/main/java/com/github/cbismuth/puzzles/NumberOfVisibleNodes.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/NumberOfVisibleNodesTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/NumberOfVisibleNodes.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/NumberOfVisibleNodesTest.java)
 * Nodes in a Subtree -
-  [sources](src/main/java/com/github/cbismuth/puzzles/NodesInSubtree.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/NodesInSubtreeTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/NodesInSubtree.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/NodesInSubtreeTest.java)
 
-## Search
+### Search
 
 * Revenue Milestones -
-  [sources](src/main/java/com/github/cbismuth/puzzles/RevenueMilestones.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/RevenueMilestonesTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/RevenueMilestones.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/RevenueMilestonesTest.java)
 * 1 Billion Users -
-  [sources](src/main/java/com/github/cbismuth/puzzles/OneBillionUsers.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/OneBillionUsersTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/OneBillionUsers.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/OneBillionUsersTest.java)
 
-## Recursion
+### Recursion
 
 * Encrypted Words -
-  [sources](src/main/java/com/github/cbismuth/puzzles/EncryptedWords.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/EncryptedWordsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/EncryptedWords.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/EncryptedWordsTest.java)
 * Change in a Foreign Currency -
-  [sources](src/main/java/com/github/cbismuth/puzzles/ChangeForeignCurrency.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/ChangeForeignCurrencyTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/ChangeForeignCurrency.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/ChangeForeignCurrencyTest.java)
 
-## Sorting
+### Sorting
 
 * Balanced Split -
-  [sources](src/main/java/com/github/cbismuth/puzzles/BalancedSplit.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/BalancedSplitTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/BalancedSplit.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/BalancedSplitTest.java)
 * Counting Triangles -
-  [sources](src/main/java/com/github/cbismuth/puzzles/CountingTriangles.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/CountingTrianglesTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/CountingTriangles.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/CountingTrianglesTest.java)
 
-## Stacks
+### Stacks
 
-## Hash tables
+Coming sooner or later ...
+
+### Hash tables
 
 * Pair Sums -
-  [sources](src/main/java/com/github/cbismuth/puzzles/PairSums.java),
-  [tests](src/test/java/com/github/cbismuth/puzzles/PairSumsTest.java)
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/PairSums.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/PairSumsTest.java)
 
-## Queues
+### Queues
 
-## Graphs
+Coming sooner or later ...
 
-## Linked lists
+### Graphs
+
+Coming sooner or later ...
+
+### Linked lists
+
+Coming sooner or later ...
