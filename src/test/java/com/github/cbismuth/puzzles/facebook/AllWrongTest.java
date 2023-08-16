@@ -24,6 +24,7 @@
 
 package com.github.cbismuth.puzzles.facebook;
 
+import org.apache.commons.lang3.RandomUtils;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -36,7 +37,8 @@ class AllWrongTest {
 
   private static Stream<Arguments> data() {
     return Stream.of(Arguments.arguments(3, "ABA", "BAB"),
-                     Arguments.arguments(5, "BBBBB", "AAAAA"));
+                     Arguments.arguments(5, "BBBBB", "AAAAA"),
+                     Arguments.arguments(RandomUtils.nextInt(), null, ""));
   }
 
   private final AllWrong service = new AllWrong();

@@ -32,11 +32,13 @@ public class AllWrong {
   public String getWrongAnswers(final int N, final String C) {
     final StringBuilder s = new StringBuilder();
 
-    for (int i = 0; i < N && i < C.length(); i++) {
-      if (C.charAt(i) == 'A') {
-        s.append("B");
-      } else {
-        s.append("A");
+    if (N > 0 && C != null) {
+      for (int i = 0; i < N && i < C.length(); i++) {
+        if (C.charAt(i) == 'A') {
+          s.append("B");
+        } else {
+          s.append("A");
+        }
       }
     }
 
