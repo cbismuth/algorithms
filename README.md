@@ -1,4 +1,4 @@
-# Algorithms
+# Puzzles
 
 [![Java CI](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
 
