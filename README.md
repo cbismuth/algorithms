@@ -1,4 +1,4 @@
-# [Puzzles](https://www.metacareers.com/profile/coding_puzzles/)
+# Puzzles
 
 [![Java CI](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
 
@@ -94,3 +94,7 @@
 * Pair Sums -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/PairSums.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/PairSumsTest.java)
+
+## References
+
+* https://www.metacareers.com/profile/coding_puzzles/
