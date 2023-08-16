@@ -5,8 +5,11 @@
 target/
 
 # JetBrains IntelliJ IDEA
+*.ipr
+*.iws
 *.iml
-.run/
+.run/*
+!.run/tests.run.xml
 .idea/*
 !.idea/copyright/
 !.idea/codeStyles/
