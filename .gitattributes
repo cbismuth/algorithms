@@ -1,0 +1,6 @@
+# Defaults to Linux and Apple macOS
+* text eol=lf
+
+# Apache Maven Wrapper
+*.cmd text eol=crlf
+*.jar binary

@@ -3,7 +3,9 @@
 [![build](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
 [![codecov](https://codecov.io/gh/cbismuth/puzzles/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/puzzles)
 
-## Arrays
+## Contents
+
+### Arrays
 
 * Reverse to Make Equal -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/ReverseToMakeEqual.java),
@@ -15,7 +17,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/ContiguousSubarrays.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/ContiguousSubarraysTest.java)
 
-## Heaps
+### Heaps
 
 * Largest Triple Products -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/LargestTripleProducts.java),
@@ -27,7 +29,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/MedianStream.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/MedianStreamTest.java)
 
-## Strings
+### Strings
 
 * Rotational Cipher -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/RotationalCypher.java),
@@ -42,7 +44,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/AllWrong.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/AllWrongTest.java)
 
-## Greedy algorithms
+### Greedy algorithms
 
 * Slow Sums -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/SlowSums.java),
@@ -54,7 +56,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/SeatingArrangements.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/SeatingArrangementsTest.java)
 
-## Trees
+### Trees
 
 * Number of Visible Nodes -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/NumberOfVisibleNodes.java),
@@ -63,7 +65,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/NodesInSubtree.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/NodesInSubtreeTest.java)
 
-## Search
+### Search
 
 * Revenue Milestones -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/RevenueMilestones.java),
@@ -72,7 +74,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/OneBillionUsers.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/OneBillionUsersTest.java)
 
-## Recursion
+### Recursion
 
 * Encrypted Words -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/EncryptedWords.java),
@@ -81,7 +83,7 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/ChangeForeignCurrency.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/ChangeForeignCurrencyTest.java)
 
-## Sorting
+### Sorting
 
 * Balanced Split -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/BalancedSplit.java),
@@ -90,11 +92,21 @@
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/CountingTriangles.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/CountingTrianglesTest.java)
 
-## Hash tables
+### Hash tables
 
 * Pair Sums -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/PairSums.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/PairSumsTest.java)
+
+## How to build
+
+```bash
+# Linux and Apple macOS
+./mvnw clean install
+
+# Microsoft Windows
+mvnw.cmd clean install
+```
 
 ## References
 
