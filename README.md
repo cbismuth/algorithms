@@ -16,6 +16,9 @@
 * Contiguous Subarrays -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/ContiguousSubarrays.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/ContiguousSubarraysTest.java)
+* Battleship -
+  [sources](src/main/java/com/github/cbismuth/puzzles/facebook/Battleship.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/facebook/BattleshipTest.java)
 
 ### Heaps
 
