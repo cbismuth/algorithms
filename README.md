@@ -2,7 +2,7 @@
 
 [![Java CI](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
 
-## Coding puzzles from [Facebook](https://www.metacareers.com/)
+## Coding puzzles from [Facebook](https://www.metacareers.com/profile/coding_puzzles/)
 
 ### Arrays
 
