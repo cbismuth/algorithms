@@ -39,6 +39,9 @@
 * Minimum Length Substrings -
   [sources](src/main/java/com/github/cbismuth/algorithms/facebook/MinimumLengthSubstrings.java),
   [tests](src/test/java/com/github/cbismuth/algorithms/facebook/MinimumLengthSubstringsTest.java)
+* All Wrong -
+  [sources](src/main/java/com/github/cbismuth/algorithms/facebook/AllWrong.java),
+  [tests](src/test/java/com/github/cbismuth/algorithms/facebook/AllWrongTest.java)
 
 ### Greedy algorithms
 
