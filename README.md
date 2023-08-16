@@ -1,7 +1,7 @@
 # Puzzles
 
-[![Java CI](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
-[![Codecov](https://codecov.io/gh/cbismuth/puzzles/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/puzzles)
+[![build](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
+[![codecov](https://codecov.io/gh/cbismuth/puzzles/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/puzzles)
 
 ## Arrays
 
