@@ -10,6 +10,7 @@ target/
 *.iml
 .run/*
 !.run/tests.run.xml
+!.run/build.run.xml
 .idea/*
 !.idea/copyright/
 !.idea/codeStyles/
