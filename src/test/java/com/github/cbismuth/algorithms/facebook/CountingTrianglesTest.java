@@ -36,33 +36,33 @@ import java.util.stream.Stream;
 
 class CountingTrianglesTest {
 
-    private static final List<Sides> input1 = new ArrayList<>();
-    private static final List<Sides> input2 = new ArrayList<>();
+  private static final List<Sides> input1 = new ArrayList<>();
+  private static final List<Sides> input2 = new ArrayList<>();
 
-    static {
-        input1.add(new Sides(7, 6, 5));
-        input1.add(new Sides(5, 7, 6));
-        input1.add(new Sides(8, 2, 9));
-        input1.add(new Sides(2, 3, 4));
-        input1.add(new Sides(2, 4, 3));
+  static {
+    input1.add(new Sides(7, 6, 5));
+    input1.add(new Sides(5, 7, 6));
+    input1.add(new Sides(8, 2, 9));
+    input1.add(new Sides(2, 3, 4));
+    input1.add(new Sides(2, 4, 3));
 
-        input2.add(new Sides(3, 4, 5));
-        input2.add(new Sides(8, 8, 9));
-        input2.add(new Sides(7, 7, 7));
-    }
+    input2.add(new Sides(3, 4, 5));
+    input2.add(new Sides(8, 8, 9));
+    input2.add(new Sides(7, 7, 7));
+  }
 
-    private static Stream<Arguments> data() {
-        return Stream.of(Arguments.arguments(input1, 3),
-                         Arguments.arguments(input2, 3));
-    }
+  private static Stream<Arguments> data() {
+    return Stream.of(Arguments.arguments(input1, 3),
+                     Arguments.arguments(input2, 3));
+  }
 
-    private final CountingTriangles service = new CountingTriangles();
+  private final CountingTriangles service = new CountingTriangles();
 
-    @ParameterizedTest
-    @MethodSource("data")
-    void test(final List<Sides> input, final int expected) {
-        final int actual = service.countDistinctTriangles(input);
+  @ParameterizedTest
+  @MethodSource("data")
+  void test(final List<Sides> input, final int expected) {
+    final int actual = service.countDistinctTriangles(input);
 
-        Assertions.assertEquals(expected, actual);
-    }
+    Assertions.assertEquals(expected, actual);
+  }
 }

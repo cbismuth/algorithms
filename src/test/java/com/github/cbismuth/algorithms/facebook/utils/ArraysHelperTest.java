@@ -29,17 +29,17 @@ import org.junit.jupiter.api.Test;
 
 class ArraysHelperTest {
 
-    @Test
-    void testMax() {
-        final int[] input = { 1, 2, 3, 10, 4, 5 };
+  @Test
+  void testMax() {
+    final int[] input = { 1, 2, 3, 10, 4, 5 };
 
-        Assertions.assertEquals(new MutablePair<>(3, 10), ArraysHelper.getMax(input, input.length));
-    }
+    Assertions.assertEquals(new MutablePair<>(3, 10), ArraysHelper.getMax(input, input.length));
+  }
 
-    @Test
-    void testMin() {
-        final int[] input = { 1, 2, 3, -10, 4, 5 };
+  @Test
+  void testMin() {
+    final int[] input = { 1, 2, 3, -10, 4, 5 };
 
-        Assertions.assertEquals(new MutablePair<>(3, -10), ArraysHelper.getMin(input, input.length));
-    }
+    Assertions.assertEquals(new MutablePair<>(3, -10), ArraysHelper.getMin(input, input.length));
+  }
 }

@@ -42,8 +42,8 @@ class PairSums {
    * Determines the number of different pairs of elements within it which sum to {@code k}, then triggers a recursion
    * with the subarray containing all elements but the first one and accumulates sums.
    * <p>
-   * Cyclomatic complexity is {@code O(n+(n-1)+(n-2)+...+2+1)=O(n*(n-1)/2)=O(n^2)} as the input array is iterated
-   * twice for each element it contains.
+   * Cyclomatic complexity is {@code O(n+(n-1)+(n-2)+...+2+1)=O(n*(n-1)/2)=O(n^2)} as the input array is iterated twice
+   * for each element it contains.
    *
    * @param input an input array of integers
    * @param k an expected value

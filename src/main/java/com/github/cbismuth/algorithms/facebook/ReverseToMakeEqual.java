@@ -56,8 +56,8 @@ class ReverseToMakeEqual {
   }
 
   /**
-   * Given two arrays {@code A} and {@code B} of length {@code N}, determines if there is a way to make {@code A}
-   * equal to {@code B} by reversing any subarrays from array {@code B} any number of times.
+   * Given two arrays {@code A} and {@code B} of length {@code N}, determines if there is a way to make {@code A} equal
+   * to {@code B} by reversing any subarrays from array {@code B} any number of times.
    * <p>
    * Cyclomatic complexity is {@code O(n^2)} as the input array may be partially iterated once for each element it
    * contains.
