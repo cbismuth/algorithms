@@ -1,6 +1,6 @@
 # Defaults to Linux and Apple macOS
-* text eol=lf
+* text working-tree-encoding=UTF-8 eol=lf
 
 # Apache Maven Wrapper
-*.cmd text eol=crlf
+*.cmd working-tree-encoding=UTF-8 text eol=crlf
 *.jar binary
