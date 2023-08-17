@@ -12,6 +12,7 @@ target/
 !.run/tests.run.xml
 !.run/build.run.xml
 .idea/*
+!.idea/encodings.xml
 !.idea/copyright/
 !.idea/codeStyles/
 !.idea/inspectionProfiles/
