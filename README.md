@@ -16,9 +16,12 @@
 * Contiguous Subarrays -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/ContiguousSubarrays.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/ContiguousSubarraysTest.java)
-* Battleship -
+* [Battleship](https://www.metacareers.com/profile/coding_puzzles/?puzzle=3641006936004915) -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/Battleship.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/BattleshipTest.java)
+* [Cafetaria](https://www.metacareers.com/profile/coding_puzzles/?puzzle=203188678289677) -
+  [sources](src/main/java/com/github/cbismuth/puzzles/facebook/Cafetaria.java),
+  [tests](src/test/java/com/github/cbismuth/puzzles/facebook/CafetariaTest.java)
 
 ### Heaps
 
@@ -43,7 +46,7 @@
 * Minimum Length Substrings -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/MinimumLengthSubstrings.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/MinimumLengthSubstringsTest.java)
-* All Wrong -
+* [All Wrong](https://www.metacareers.com/profile/coding_puzzles/?puzzle=1082217288848574) -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/AllWrong.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/AllWrongTest.java)
 
