@@ -1,7 +1,7 @@
 # Puzzles
 
-[![build](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
-[![codecov](https://codecov.io/gh/cbismuth/puzzles/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/puzzles)
+[![build](https://github.com/cbismuth/metacareers/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/metacareers/actions/workflows/maven.yaml)
+[![codecov](https://codecov.io/gh/cbismuth/metacareers/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/metacareers)
 
 ## Contents
 
