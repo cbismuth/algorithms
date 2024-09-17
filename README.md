@@ -1,7 +1,7 @@
 # Puzzles
 
-[![build](https://github.com/cbismuth/metacareers/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/metacareers/actions/workflows/maven.yaml)
-[![codecov](https://codecov.io/gh/cbismuth/metacareers/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/metacareers)
+[![build](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml/badge.svg)](https://github.com/cbismuth/puzzles/actions/workflows/maven.yaml)
+[![codecov](https://codecov.io/gh/cbismuth/puzzles/graph/badge.svg?token=ZJ8UEDU3DN)](https://codecov.io/gh/cbismuth/puzzles)
 
 ## Contents
 
@@ -46,7 +46,7 @@
 * Minimum Length Substrings -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/MinimumLengthSubstrings.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/MinimumLengthSubstringsTest.java)
-* [All Wrong](https://www.metacareers.com/profile/coding_puzzles/?puzzle=1082217288848574) -
+* [All Wrong](https://www..com/profile/coding_puzzles/?puzzle=1082217288848574) -
   [sources](src/main/java/com/github/cbismuth/puzzles/facebook/AllWrong.java),
   [tests](src/test/java/com/github/cbismuth/puzzles/facebook/AllWrongTest.java)
 
