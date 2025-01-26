@@ -61,8 +61,8 @@ class NodesInSubtree {
     final char c = chars[u - 1];
 
     for (int i = 0; i < queries.length; i++) {
-      if (queries[i].getC() == c) {
-        if (queries[i].getU() == u) {
+      if (queries[i].c() == c) {
+        if (queries[i].u() == u) {
           queryMatchCounts[i] = queryMatchCounts[i] + 1;
           queryMatchMinLevels[i] = level;
         } else if (queryMatchMinLevels[i] >= 0 && queryMatchMinLevels[i] < level) {

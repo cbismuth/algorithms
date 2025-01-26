@@ -24,21 +24,6 @@
 
 package com.github.cbismuth.puzzles.facebook.utils;
 
-public class IntCharQuery {
-
-  private final int u;
-  private final char c;
-
-  public IntCharQuery(final int u, final char c) {
-    this.u = u;
-    this.c = c;
-  }
-
-  public int getU() {
-    return u;
-  }
-
-  public char getC() {
-    return c;
-  }
+public record IntCharQuery(int u, char c) {
+  // NOP
 }

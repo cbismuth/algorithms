@@ -50,7 +50,7 @@ class OneBillionUsers {
       int users = 0;
 
       for (final float growthRate : growthRates) {
-        users += Math.pow(growthRate, days);
+        users += (int) Math.pow(growthRate, days);
       }
 
       if (users > 1_000_000_000) {

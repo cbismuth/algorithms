@@ -38,7 +38,7 @@ class AllWrongTest {
   private static Stream<Arguments> data() {
     return Stream.of(Arguments.arguments(3, "ABA", "BAB"),
                      Arguments.arguments(5, "BBBBB", "AAAAA"),
-                     Arguments.arguments(RandomUtils.nextInt(), null, ""));
+                     Arguments.arguments(RandomUtils.secure().randomInt(), null, ""));
   }
 
   private final AllWrong service = new AllWrong();

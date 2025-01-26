@@ -31,7 +31,7 @@ import com.github.cbismuth.puzzles.facebook.utils.MutableBinaryNode;
  * <p>
  * There is a binary tree with {@code N} nodes. You are viewing the tree from its left side and can see only the
  * leftmost nodes at each level. Return the number of visible nodes.
- *
+ * <p>
  * <b>Note</b>: You can see only the leftmost nodes, but that doesn't mean they have to be left nodes. The leftmost
  * node at a level could be a right node.
  */

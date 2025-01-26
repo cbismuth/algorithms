@@ -37,17 +37,8 @@ import java.util.List;
  */
 class CountingTriangles {
 
-  static class Sides {
-
-    int a;
-    int b;
-    int c;
-
-    Sides(final int a, final int b, final int c) {
-      this.a = a;
-      this.b = b;
-      this.c = c;
-    }
+  record Sides(int a, int b, int c) {
+    // NOP
   }
 
   /**
